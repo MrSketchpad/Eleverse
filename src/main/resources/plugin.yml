@@ -1,0 +1,20 @@
+name: Eleverse
+version: 1.0
+author: Mr_Sketchpad
+main: com.sketchpad.eleverse.Eleverse
+api-version: 1.18
+depend: [NBTAPI]
+commands:
+  elitem:
+    permission: Eleverse.player
+  elattribute:
+    permission: Eleverse.player
+  craft:
+    permission: Eleverse.player
+permissions:
+  Eleverse.admin:
+    description: Access to staff commands/permissions.
+    default: op
+  Eleverse.player:
+    description: Default player permission.
+    default: true
